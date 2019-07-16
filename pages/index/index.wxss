@@ -1,0 +1,26 @@
+/**index.wxss**/
+page {
+  height: 100%;
+  background: #48d1cc;
+}
+
+.userinfo-avatar {
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 50%;
+}
+
+.userinfo-text {
+  font-weight: bold;
+  margin: 100rpx 0;
+}
+
+.userinfo-btn {
+  width: 250rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  font-size: 30rpx;
+  border: 1rpx solid #20b2aa;
+  background: transparent;
+  color: #20b2aa;
+}
