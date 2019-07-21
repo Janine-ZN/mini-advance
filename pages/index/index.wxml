@@ -2,5 +2,5 @@
 <view class="container">
   <image src="../../img/free.jpg" class="userinfo-avatar"></image>
   <text class="userinfo-text">Hello，Janine </text>
-  <button class="userinfo-btn">开启小程序之旅</button>
+  <button class="userinfo-btn" bindtap="goHome">开启小程序之旅</button>
 </view>
