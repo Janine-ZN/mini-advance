@@ -6,5 +6,12 @@ Page({
     this.setData({
       post_list: postsData.postList
     });
+  }, 
+  onPostTap:function(event){
+
+    console.log(event);
+    wx.navigateTo({
+      url: './post-detail/post-detail',
+    });
   }
 })
