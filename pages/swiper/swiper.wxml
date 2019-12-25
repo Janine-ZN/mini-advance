@@ -1,0 +1,10 @@
+<!--pages/swiper/swiper.wxml-->
+<swiper class="swiper" autoplay indicator-color="#a39f99" current="{{currentId}}" indicator-active-color="#f49641" indicator-dots interval="2000" duration="1000" previous-margin="30px" next-margin="30px" circular bindchange="durationChange">
+  <block wx:for="{{movies}}" wx:for-index="index">
+    <swiper-item item-id="{{index}}">
+      <image src="{{item.url}}" class="slide-image" mode="aspectFill" />
+    </swiper-item>
+  </block>
+</swiper>
+<button bindtap="per">上一张</button>
+<button>下一张</button>

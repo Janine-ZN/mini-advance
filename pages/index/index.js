@@ -16,6 +16,22 @@ Page({
     })
   },
   goHome: function() {
+    /* wx.login({
+      success(res) {
+        if (res.code) {
+          console.log('janine=====', res);
+          //发起网络请求
+          wx.request({
+            url: 'https://test.com/onLogin',
+            data: {
+              code: res.code
+            }
+          })
+        } else {
+          console.log('登录失败！' + res.errMsg)
+        }
+      }
+    }) */
     wx.redirectTo({
       url: "../posts/post"
     })
@@ -54,6 +70,11 @@ Page({
     this.setData({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
+    })
+  },
+  goSwiper: function() {
+    wx.redirectTo({
+      url: "../swiper/swiper"
     })
   }
 })
