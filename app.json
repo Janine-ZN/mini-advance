@@ -4,7 +4,8 @@
     "pages/posts/post",
     "pages/logs/logs",
     "pages/posts/post-detail/post-detail",
-    "pages/swiper/swiper"
+    "pages/swiper/swiper",
+    "pages/canvas/canvas"
   ],
   "window": {
     "backgroundTextStyle": "light",
